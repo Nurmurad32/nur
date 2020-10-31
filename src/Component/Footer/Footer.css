@@ -1,0 +1,75 @@
+.footer_area {
+    padding: 100px 0 70px 0;
+    position: relative;
+}
+.footer_area::before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f9f9fd;
+    z-index: -1;
+}
+.footer_area .footer_logo {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.footer_area .footer_logo h4 {
+    font-size: 20px;
+    color: #000000;
+    /* margin-top: 35px; */
+    text-transform: uppercase;
+}
+.footer_area .footer_social {
+    text-align: center;
+    margin: 25px 0px 30px;
+}
+.footer_area .footer_social a {
+    padding: 0 20px;
+}
+.footer_area .footer_social a i {
+    color: #788489;
+    font-size: 22px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.fa-facebook::before {
+    content: "\f09a";
+}
+.fa-linkedIn:before {
+    content: "\f099";
+}
+.fa-github::before {
+    content: "\f17d";
+}
+.fa-instagram::before {
+    content: "\f1b4";
+}
+.footer_area .footer_bottom {
+    text-align: center;
+}
+.footer_area .footer_bottom p {
+    margin-bottom: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-heart-o:before {
+    content: "\f08a";
+}

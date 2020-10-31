@@ -1,0 +1,55 @@
+.home_banner_area {
+    z-index: 1;
+    /* background: url(../img/banner/home-banner.png) no-repeat top center; */
+    background-color: #F6F5FF;
+    background-position: center;
+    background-size: cover;
+}
+.home_banner_area .banner_inner {
+    width: 100%;
+}
+.row {
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.home_banner_area .banner_inner .col-lg-7 {
+    vertical-align: middle;
+    align-self: center;
+}
+.home_banner_area .banner_inner .banner_content {
+    text-align: left;
+}
+.home_banner_area .banner_inner .home_right_img {
+    padding-top: 160px;
+}
+.hire-btn{
+    border: none;
+    background-color: #e45447;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    margin-right: 15px;
+}
+.hire-btn:hover{
+    background-color: #90ACD4;
+    
+}
+.cv-btn a{
+    text-decoration: none;
+    color: white
+}
+.cv-btn {
+    border: none;
+    background-color: #e45447;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white
+}
+.cv-btn:hover{
+    background-color: #90ACD4;
+    
+}
